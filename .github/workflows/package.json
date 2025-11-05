@@ -1,0 +1,12 @@
+{
+  "name": "simple-web-calculator",
+  "version": "1.0.0",
+  "description": "A simple calculator web app with CI/CD",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest --coverage --ci"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
