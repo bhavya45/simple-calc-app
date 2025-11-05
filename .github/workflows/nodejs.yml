@@ -20,7 +20,12 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
+        working-directory: ./simple-calc-app
         run: npm install
+
+      - name: Runs tests
+        working-directory: ./simple-calc-app
+        run: npm test
 
       - name: Run tests
         run: npm test
